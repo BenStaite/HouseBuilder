@@ -1,0 +1,2480 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2021-01-13T09:59:14.682+00:00
+  initializedAtString: 2021-01-13T09:51:22.248+00:00
+  entries:
+  - path: Assets\Build.png
+    fullPath: C:\Users\Benst\builder\Assets\Build.png
+    projectPath: Assets\Build.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Build.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\Build.png.meta
+    projectPath: Assets\Build.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets.meta
+    projectPath: Assets\ExampleAssets.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials.meta
+    projectPath: Assets\ExampleAssets\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\ConstructionLight_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\ConstructionLight_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\ConstructionLight_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\ConstructionLight_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\ConstructionLight_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\ConstructionLight_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\DryWall_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\DryWall_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\DryWall_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\DryWall_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\DryWall_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\DryWall_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\DryWallPainted_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\DryWallPainted_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\DryWallPainted_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\DryWallPainted_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\DryWallPainted_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\DryWallPainted_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Ground_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Ground_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Ground_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Ground_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Ground_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Ground_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Hammer_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Hammer_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Hammer_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Hammer_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Hammer_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Hammer_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\HardHat_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\HardHat_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\HardHat_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\HardHat_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\HardHat_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\HardHat_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Jigsaw_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Jigsaw_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Jigsaw_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Jigsaw_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Jigsaw_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Jigsaw_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\LightBulb_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\LightBulb_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\LightBulb_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\LightBulb_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\LightBulb_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\LightBulb_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Liquid_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Liquid_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Liquid_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Liquid_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Liquid_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Liquid_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Metal_Blue_Simple_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Metal_Simple_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Metal_Simple_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Metal_Simple_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Metal_Simple_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Metal_Simple_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Metal_Simple_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\OBS_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\OBS_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\OBS_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\OBS_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\OBS_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\OBS_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Paint1G_WAnim_Material.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Paint1G_WAnim_Material.mat
+    projectPath: Assets\ExampleAssets\Materials\Paint1G_WAnim_Material.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Paint1G_WAnim_Material.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Paint1G_WAnim_Material.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Paint1G_WAnim_Material.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\PaintBrush_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\PaintBrush_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\PaintBrush_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\PaintBrush_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\PaintBrush_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\PaintBrush_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\PaintLabel_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\PaintLabel_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\PaintLabel_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\PaintLabel_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\PaintLabel_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\PaintLabel_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Black_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Black_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Black_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Black_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Black_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Black_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Gray_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Gray_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Gray_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Gray_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Gray_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Gray_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Ridges_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Ridges_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Ridges_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Ridges_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Ridges_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Ridges_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Rough_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Rough_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Rough_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Rough_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Rough_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Rough_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Transparent.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Transparent.mat
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Transparent.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Transparent.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Transparent.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Transparent.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_White_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_White_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Plastic_White_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_White_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_White_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Plastic_White_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Yellow_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Yellow_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Yellow_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Plastic_Yellow_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Plastic_Yellow_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Plastic_Yellow_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Strap_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Strap_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Strap_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Strap_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Strap_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Strap_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Stud_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Stud_Mat.mat
+    projectPath: Assets\ExampleAssets\Materials\Stud_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Materials\Stud_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Materials\Stud_Mat.mat.meta
+    projectPath: Assets\ExampleAssets\Materials\Stud_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models.meta
+    projectPath: Assets\ExampleAssets\Models.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\brush_low.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\brush_low.fbx
+    projectPath: Assets\ExampleAssets\Models\brush_low.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\brush_low.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\brush_low.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\brush_low.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\ConstructionLight_Low.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\ConstructionLight_Low.fbx
+    projectPath: Assets\ExampleAssets\Models\ConstructionLight_Low.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\ConstructionLight_Low.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\ConstructionLight_Low.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\ConstructionLight_Low.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\hammer_low.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\hammer_low.fbx
+    projectPath: Assets\ExampleAssets\Models\hammer_low.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\hammer_low.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\hammer_low.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\hammer_low.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\jigsaw_low.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\jigsaw_low.fbx
+    projectPath: Assets\ExampleAssets\Models\jigsaw_low.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\jigsaw_low.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\jigsaw_low.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\jigsaw_low.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\magneticlevel_low.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\magneticlevel_low.fbx
+    projectPath: Assets\ExampleAssets\Models\magneticlevel_low.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\magneticlevel_low.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\magneticlevel_low.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\magneticlevel_low.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\paintbucket_low.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\paintbucket_low.fbx
+    projectPath: Assets\ExampleAssets\Models\paintbucket_low.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\paintbucket_low.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\paintbucket_low.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\paintbucket_low.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\safetygoggles_low.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\safetygoggles_low.fbx
+    projectPath: Assets\ExampleAssets\Models\safetygoggles_low.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\safetygoggles_low.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\safetygoggles_low.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\safetygoggles_low.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\safetyhat_low.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\safetyhat_low.fbx
+    projectPath: Assets\ExampleAssets\Models\safetyhat_low.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\safetyhat_low.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\safetyhat_low.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\safetyhat_low.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\small_plane.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\small_plane.fbx
+    projectPath: Assets\ExampleAssets\Models\small_plane.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\small_plane.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\small_plane.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\small_plane.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\Stud.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\Stud.fbx
+    projectPath: Assets\ExampleAssets\Models\Stud.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\Stud.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\Stud.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\Stud.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\Workbench.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\Workbench.fbx
+    projectPath: Assets\ExampleAssets\Models\Workbench.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\Workbench.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\Workbench.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\Workbench.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\Workbench_Low.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\Workbench_Low.fbx
+    projectPath: Assets\ExampleAssets\Models\Workbench_Low.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\Workbench_Low.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\Workbench_Low.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\Workbench_Low.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\Workshop_Set.fbx
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\Workshop_Set.fbx
+    projectPath: Assets\ExampleAssets\Models\Workshop_Set.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Models\Workshop_Set.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Models\Workshop_Set.fbx.meta
+    projectPath: Assets\ExampleAssets\Models\Workshop_Set.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs.meta
+    projectPath: Assets\ExampleAssets\Prefabs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Construction Light Low.prefab
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Construction Light
+      Low.prefab
+    projectPath: Assets\ExampleAssets\Prefabs\Construction Light Low.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Construction Light Low.prefab.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Construction Light
+      Low.prefab.meta
+    projectPath: Assets\ExampleAssets\Prefabs\Construction Light Low.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Paint Supplies.prefab
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Paint Supplies.prefab
+    projectPath: Assets\ExampleAssets\Prefabs\Paint Supplies.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Paint Supplies.prefab.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Paint Supplies.prefab.meta
+    projectPath: Assets\ExampleAssets\Prefabs\Paint Supplies.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Props.prefab
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Props.prefab
+    projectPath: Assets\ExampleAssets\Prefabs\Props.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Props.prefab.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Props.prefab.meta
+    projectPath: Assets\ExampleAssets\Prefabs\Props.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Workbench.prefab
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Workbench.prefab
+    projectPath: Assets\ExampleAssets\Prefabs\Workbench.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Workbench.prefab.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Workbench.prefab.meta
+    projectPath: Assets\ExampleAssets\Prefabs\Workbench.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Workbench_LOD0.prefab
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Workbench_LOD0.prefab
+    projectPath: Assets\ExampleAssets\Prefabs\Workbench_LOD0.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Workbench_LOD0.prefab.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Workbench_LOD0.prefab.meta
+    projectPath: Assets\ExampleAssets\Prefabs\Workbench_LOD0.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Workbench_LOD1.prefab
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Workbench_LOD1.prefab
+    projectPath: Assets\ExampleAssets\Prefabs\Workbench_LOD1.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Workbench_LOD1.prefab.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Workbench_LOD1.prefab.meta
+    projectPath: Assets\ExampleAssets\Prefabs\Workbench_LOD1.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Workshop Set.prefab
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Workshop Set.prefab
+    projectPath: Assets\ExampleAssets\Prefabs\Workshop Set.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Prefabs\Workshop Set.prefab.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Prefabs\Workshop Set.prefab.meta
+    projectPath: Assets\ExampleAssets\Prefabs\Workshop Set.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Shaders.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Shaders.meta
+    projectPath: Assets\ExampleAssets\Shaders.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Shaders\Paint1G_WAnim_Shader.ShaderGraph
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Shaders\Paint1G_WAnim_Shader.ShaderGraph
+    projectPath: Assets\ExampleAssets\Shaders\Paint1G_WAnim_Shader.ShaderGraph
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Shaders\Paint1G_WAnim_Shader.ShaderGraph.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Shaders\Paint1G_WAnim_Shader.ShaderGraph.meta
+    projectPath: Assets\ExampleAssets\Shaders\Paint1G_WAnim_Shader.ShaderGraph.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures.meta
+    projectPath: Assets\ExampleAssets\Textures.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Concrete.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Concrete.meta
+    projectPath: Assets\ExampleAssets\Textures\Concrete.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Concrete\Ground_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Concrete\Ground_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Concrete\Ground_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Concrete\Ground_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Concrete\Ground_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Concrete\Ground_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Concrete\Ground_MetallicOcculusionSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Concrete\Ground_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Concrete\Ground_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Concrete\Ground_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Concrete\Ground_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Concrete\Ground_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Concrete\Ground_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Drywall.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Drywall.meta
+    projectPath: Assets\ExampleAssets\Textures\Drywall.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Drywall\Drywall_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Drywall\Drywall_AlbedoSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Drywall\Drywall_AlbedoSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Drywall\Drywall_AlbedoSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Drywall\Drywall_AlbedoSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Drywall\Drywall_AlbedoSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Drywall\Drywall_AlbedoSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Drywall\Drywall_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Drywall\Drywall_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Drywall\Drywall_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Drywall\Drywall_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Drywall\Drywall_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Drywall\Drywall_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Drywall\DrywallPainted_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Metal.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Metal.meta
+    projectPath: Assets\ExampleAssets\Textures\Metal.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Metal\Metal_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Metal\Metal_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Metal\Metal_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Metal\Metal_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Metal\Metal_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Metal\Metal_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Metal\Metal_MetallicSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Metal\Metal_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Metal\Metal_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Metal\Metal_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Metal\Metal_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Metal\Metal_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Metal\Metal_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic.meta
+    projectPath: Assets\ExampleAssets\Textures\Plastic.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Plastic\Elastic_MetallicOcculusionSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\Elastic_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\Elastic_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Plastic\Elastic_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\Elastic_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\Elastic_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Plastic\Elastic_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\Plastic_AlbedoSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\Plastic_AlbedoSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Plastic\Plastic_AlbedoSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\Plastic_AlbedoSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\Plastic_AlbedoSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Plastic\Plastic_AlbedoSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\Plastic_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\Plastic_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Plastic\Plastic_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\Plastic_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\Plastic_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Plastic\Plastic_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_MetallicOcculusionSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Plastic\PlasticRidges_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Plastic\PlasticRough_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Plastic\PlasticRough_MetallicOcculusionSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props.meta
+    projectPath: Assets\ExampleAssets\Textures\Props.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Construction_Light.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Construction_Light.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Construction_Light.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Construction_Light\ConstructionLight_MetallicOcculusionSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Hammer.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Hammer.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Hammer.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_MetallicOcculusionSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Hammer\Hammer_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\HardHat.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\HardHat.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\HardHat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_MetallicOcculusionSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\HardHat\SafetyHat_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Jigsaw.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Jigsaw.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Jigsaw.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_MetallicOcculusionSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Jigsaw\Jigsaw_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionRoughness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionRoughness.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionRoughness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionRoughness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionRoughness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_MetallicOcculusionRoughness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paint1G_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paint5G_AlbedoSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paint5G_AlbedoSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paint5G_AlbedoSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paint5G_AlbedoSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paint5G_AlbedoSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paint5G_AlbedoSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\PaintAnimMask.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\PaintAnimMask.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\PaintAnimMask.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\PaintAnimMask.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\PaintAnimMask.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\PaintAnimMask.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_MetallicOcculusionSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\Paintbrush_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\PaintLabel.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\PaintLabel.tif
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\PaintLabel.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Props\Paint\PaintLabel.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Props\Paint\PaintLabel.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Props\Paint\PaintLabel.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood.meta
+    projectPath: Assets\ExampleAssets\Textures\Wood.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\OBS_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\OBS_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Wood\OBS_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\OBS_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\OBS_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Wood\OBS_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Wood\OBS_MetallicOcculusionSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\OBS_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\OBS_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Wood\OBS_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\OBS_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\OBS_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Wood\OBS_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\Plywood_Albedo.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\Plywood_Albedo.tif
+    projectPath: Assets\ExampleAssets\Textures\Wood\Plywood_Albedo.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\Plywood_Albedo.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\Plywood_Albedo.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Wood\Plywood_Albedo.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif
+    projectPath: Assets\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Wood\Plywood_MetallicOcculusionSmoothness.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\Plywood_Normal.tif
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\Plywood_Normal.tif
+    projectPath: Assets\ExampleAssets\Textures\Wood\Plywood_Normal.tif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ExampleAssets\Textures\Wood\Plywood_Normal.tif.meta
+    fullPath: C:\Users\Benst\builder\Assets\ExampleAssets\Textures\Wood\Plywood_Normal.tif.meta
+    projectPath: Assets\ExampleAssets\Textures\Wood\Plywood_Normal.tif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials.meta
+    projectPath: Assets\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Brick.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Brick.meta
+    projectPath: Assets\Materials\Brick.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Brick\Brick.mat
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Brick\Brick.mat
+    projectPath: Assets\Materials\Brick\Brick.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Brick\Brick.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Brick\Brick.mat.meta
+    projectPath: Assets\Materials\Brick\Brick.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Brick\Bricks051_4K_Color.png
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Brick\Bricks051_4K_Color.png
+    projectPath: Assets\Materials\Brick\Bricks051_4K_Color.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Brick\Bricks051_4K_Color.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Brick\Bricks051_4K_Color.png.meta
+    projectPath: Assets\Materials\Brick\Bricks051_4K_Color.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Brick\Bricks051_4K_Displacement.png
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Brick\Bricks051_4K_Displacement.png
+    projectPath: Assets\Materials\Brick\Bricks051_4K_Displacement.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Brick\Bricks051_4K_Displacement.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Brick\Bricks051_4K_Displacement.png.meta
+    projectPath: Assets\Materials\Brick\Bricks051_4K_Displacement.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Brick\Bricks051_4K_Normal.png
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Brick\Bricks051_4K_Normal.png
+    projectPath: Assets\Materials\Brick\Bricks051_4K_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Brick\Bricks051_4K_Normal.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Brick\Bricks051_4K_Normal.png.meta
+    projectPath: Assets\Materials\Brick\Bricks051_4K_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Brick\Bricks051_4K_Roughness.png
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Brick\Bricks051_4K_Roughness.png
+    projectPath: Assets\Materials\Brick\Bricks051_4K_Roughness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Brick\Bricks051_4K_Roughness.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Brick\Bricks051_4K_Roughness.png.meta
+    projectPath: Assets\Materials\Brick\Bricks051_4K_Roughness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete.meta
+    projectPath: Assets\Materials\Concrete.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete.mat
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete.mat
+    projectPath: Assets\Materials\Concrete\Concrete.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete.mat.meta
+    projectPath: Assets\Materials\Concrete\Concrete.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete025_4K_AmbientOcclusion.jpg
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete025_4K_AmbientOcclusion.jpg
+    projectPath: Assets\Materials\Concrete\Concrete025_4K_AmbientOcclusion.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete025_4K_AmbientOcclusion.jpg.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete025_4K_AmbientOcclusion.jpg.meta
+    projectPath: Assets\Materials\Concrete\Concrete025_4K_AmbientOcclusion.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete025_4K_Color.jpg
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete025_4K_Color.jpg
+    projectPath: Assets\Materials\Concrete\Concrete025_4K_Color.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete025_4K_Color.jpg.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete025_4K_Color.jpg.meta
+    projectPath: Assets\Materials\Concrete\Concrete025_4K_Color.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete025_4K_Displacement.jpg
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete025_4K_Displacement.jpg
+    projectPath: Assets\Materials\Concrete\Concrete025_4K_Displacement.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete025_4K_Displacement.jpg.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete025_4K_Displacement.jpg.meta
+    projectPath: Assets\Materials\Concrete\Concrete025_4K_Displacement.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete025_4K_Normal.jpg
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete025_4K_Normal.jpg
+    projectPath: Assets\Materials\Concrete\Concrete025_4K_Normal.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete025_4K_Normal.jpg.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete025_4K_Normal.jpg.meta
+    projectPath: Assets\Materials\Concrete\Concrete025_4K_Normal.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete025_4K_Roughness.jpg
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete025_4K_Roughness.jpg
+    projectPath: Assets\Materials\Concrete\Concrete025_4K_Roughness.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Concrete\Concrete025_4K_Roughness.jpg.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Concrete\Concrete025_4K_Roughness.jpg.meta
+    projectPath: Assets\Materials\Concrete\Concrete025_4K_Roughness.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Skybox_Mat.mat
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Skybox_Mat.mat
+    projectPath: Assets\Materials\Skybox_Mat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Skybox_Mat.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Skybox_Mat.mat.meta
+    projectPath: Assets\Materials\Skybox_Mat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\UI.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\UI.meta
+    projectPath: Assets\Materials\UI.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\UI\Delete.mat
+    fullPath: C:\Users\Benst\builder\Assets\Materials\UI\Delete.mat
+    projectPath: Assets\Materials\UI\Delete.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\UI\Delete.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\UI\Delete.mat.meta
+    projectPath: Assets\Materials\UI\Delete.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\UI\Preview.mat
+    fullPath: C:\Users\Benst\builder\Assets\Materials\UI\Preview.mat
+    projectPath: Assets\Materials\UI\Preview.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\UI\Preview.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\UI\Preview.mat.meta
+    projectPath: Assets\Materials\UI\Preview.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\UI\SnapPoint.mat
+    fullPath: C:\Users\Benst\builder\Assets\Materials\UI\SnapPoint.mat
+    projectPath: Assets\Materials\UI\SnapPoint.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\UI\SnapPoint.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\UI\SnapPoint.mat.meta
+    projectPath: Assets\Materials\UI\SnapPoint.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\UI\Transparent.mat
+    fullPath: C:\Users\Benst\builder\Assets\Materials\UI\Transparent.mat
+    projectPath: Assets\Materials\UI\Transparent.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\UI\Transparent.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\UI\Transparent.mat.meta
+    projectPath: Assets\Materials\UI\Transparent.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood.meta
+    projectPath: Assets\Materials\Wood.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\DeskWood.mat
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\DeskWood.mat
+    projectPath: Assets\Materials\Wood\DeskWood.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\DeskWood.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\DeskWood.mat.meta
+    projectPath: Assets\Materials\Wood\DeskWood.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\Wood.mat
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\Wood.mat
+    projectPath: Assets\Materials\Wood\Wood.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\Wood.mat.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\Wood.mat.meta
+    projectPath: Assets\Materials\Wood\Wood.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\WoodFloor040_4K_AmbientOcclusion.png
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\WoodFloor040_4K_AmbientOcclusion.png
+    projectPath: Assets\Materials\Wood\WoodFloor040_4K_AmbientOcclusion.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\WoodFloor040_4K_AmbientOcclusion.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\WoodFloor040_4K_AmbientOcclusion.png.meta
+    projectPath: Assets\Materials\Wood\WoodFloor040_4K_AmbientOcclusion.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\WoodFloor040_4K_Color.png
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\WoodFloor040_4K_Color.png
+    projectPath: Assets\Materials\Wood\WoodFloor040_4K_Color.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\WoodFloor040_4K_Color.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\WoodFloor040_4K_Color.png.meta
+    projectPath: Assets\Materials\Wood\WoodFloor040_4K_Color.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\WoodFloor040_4K_Displacement.png
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\WoodFloor040_4K_Displacement.png
+    projectPath: Assets\Materials\Wood\WoodFloor040_4K_Displacement.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\WoodFloor040_4K_Displacement.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\WoodFloor040_4K_Displacement.png.meta
+    projectPath: Assets\Materials\Wood\WoodFloor040_4K_Displacement.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\WoodFloor040_4K_Normal.png
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\WoodFloor040_4K_Normal.png
+    projectPath: Assets\Materials\Wood\WoodFloor040_4K_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\WoodFloor040_4K_Normal.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\WoodFloor040_4K_Normal.png.meta
+    projectPath: Assets\Materials\Wood\WoodFloor040_4K_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\WoodFloor040_4K_Roughness.png
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\WoodFloor040_4K_Roughness.png
+    projectPath: Assets\Materials\Wood\WoodFloor040_4K_Roughness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Materials\Wood\WoodFloor040_4K_Roughness.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\Materials\Wood\WoodFloor040_4K_Roughness.png.meta
+    projectPath: Assets\Materials\Wood\WoodFloor040_4K_Roughness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\New Volume Profile.asset
+    fullPath: C:\Users\Benst\builder\Assets\New Volume Profile.asset
+    projectPath: Assets\New Volume Profile.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\New Volume Profile.asset.meta
+    fullPath: C:\Users\Benst\builder\Assets\New Volume Profile.asset.meta
+    projectPath: Assets\New Volume Profile.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub.meta
+    projectPath: Assets\Plugins\GitHub.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor.meta
+    projectPath: Assets\Plugins\GitHub\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\credits.txt
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\credits.txt
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\credits.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\eula.txt
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\eula.txt
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\eula.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\libsfw.bundle
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\libsfw.so
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\sfw.net.dll
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\System.Threading.dll
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\x64.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\x86.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    fullPath: C:\Users\Benst\builder\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\practice scene.unity
+    fullPath: C:\Users\Benst\builder\Assets\practice scene.unity
+    projectPath: Assets\practice scene.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\practice scene.unity.meta
+    fullPath: C:\Users\Benst\builder\Assets\practice scene.unity.meta
+    projectPath: Assets\practice scene.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Prefabs.meta
+    projectPath: Assets\Prefabs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Desk.fbx
+    fullPath: C:\Users\Benst\builder\Assets\Prefabs\Desk.fbx
+    projectPath: Assets\Prefabs\Desk.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Desk.fbx.meta
+    fullPath: C:\Users\Benst\builder\Assets\Prefabs\Desk.fbx.meta
+    projectPath: Assets\Prefabs\Desk.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Desk.prefab
+    fullPath: C:\Users\Benst\builder\Assets\Prefabs\Desk.prefab
+    projectPath: Assets\Prefabs\Desk.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Desk.prefab.meta
+    fullPath: C:\Users\Benst\builder\Assets\Prefabs\Desk.prefab.meta
+    projectPath: Assets\Prefabs\Desk.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Floor.prefab
+    fullPath: C:\Users\Benst\builder\Assets\Prefabs\Floor.prefab
+    projectPath: Assets\Prefabs\Floor.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Floor.prefab.meta
+    fullPath: C:\Users\Benst\builder\Assets\Prefabs\Floor.prefab.meta
+    projectPath: Assets\Prefabs\Floor.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Wall.prefab
+    fullPath: C:\Users\Benst\builder\Assets\Prefabs\Wall.prefab
+    projectPath: Assets\Prefabs\Wall.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Wall.prefab.meta
+    fullPath: C:\Users\Benst\builder\Assets\Prefabs\Wall.prefab.meta
+    projectPath: Assets\Prefabs\Wall.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Wall2.prefab
+    fullPath: C:\Users\Benst\builder\Assets\Prefabs\Wall2.prefab
+    projectPath: Assets\Prefabs\Wall2.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Prefabs\Wall2.prefab.meta
+    fullPath: C:\Users\Benst\builder\Assets\Prefabs\Wall2.prefab.meta
+    projectPath: Assets\Prefabs\Wall2.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets.meta
+    fullPath: C:\Users\Benst\builder\Assets\Presets.meta
+    projectPath: Assets\Presets.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\AudioCompressedInMemory.preset
+    fullPath: C:\Users\Benst\builder\Assets\Presets\AudioCompressedInMemory.preset
+    projectPath: Assets\Presets\AudioCompressedInMemory.preset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\AudioCompressedInMemory.preset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Presets\AudioCompressedInMemory.preset.meta
+    projectPath: Assets\Presets\AudioCompressedInMemory.preset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\AudioStreaming.preset
+    fullPath: C:\Users\Benst\builder\Assets\Presets\AudioStreaming.preset
+    projectPath: Assets\Presets\AudioStreaming.preset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\AudioStreaming.preset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Presets\AudioStreaming.preset.meta
+    projectPath: Assets\Presets\AudioStreaming.preset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\Defaults.meta
+    fullPath: C:\Users\Benst\builder\Assets\Presets\Defaults.meta
+    projectPath: Assets\Presets\Defaults.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\Defaults\AlbedoTexture_Default.preset
+    fullPath: C:\Users\Benst\builder\Assets\Presets\Defaults\AlbedoTexture_Default.preset
+    projectPath: Assets\Presets\Defaults\AlbedoTexture_Default.preset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\Defaults\AlbedoTexture_Default.preset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Presets\Defaults\AlbedoTexture_Default.preset.meta
+    projectPath: Assets\Presets\Defaults\AlbedoTexture_Default.preset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\Defaults\AudioDecompressOnLoad.preset
+    fullPath: C:\Users\Benst\builder\Assets\Presets\Defaults\AudioDecompressOnLoad.preset
+    projectPath: Assets\Presets\Defaults\AudioDecompressOnLoad.preset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\Defaults\AudioDecompressOnLoad.preset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Presets\Defaults\AudioDecompressOnLoad.preset.meta
+    projectPath: Assets\Presets\Defaults\AudioDecompressOnLoad.preset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\Defaults\DirectionalLight_Default.preset
+    fullPath: C:\Users\Benst\builder\Assets\Presets\Defaults\DirectionalLight_Default.preset
+    projectPath: Assets\Presets\Defaults\DirectionalLight_Default.preset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\Defaults\DirectionalLight_Default.preset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Presets\Defaults\DirectionalLight_Default.preset.meta
+    projectPath: Assets\Presets\Defaults\DirectionalLight_Default.preset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\NormalTexture.preset
+    fullPath: C:\Users\Benst\builder\Assets\Presets\NormalTexture.preset
+    projectPath: Assets\Presets\NormalTexture.preset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\NormalTexture.preset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Presets\NormalTexture.preset.meta
+    projectPath: Assets\Presets\NormalTexture.preset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\UtilityTexture.preset
+    fullPath: C:\Users\Benst\builder\Assets\Presets\UtilityTexture.preset
+    projectPath: Assets\Presets\UtilityTexture.preset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Presets\UtilityTexture.preset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Presets\UtilityTexture.preset.meta
+    projectPath: Assets\Presets\UtilityTexture.preset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Readme.asset
+    fullPath: C:\Users\Benst\builder\Assets\Readme.asset
+    projectPath: Assets\Readme.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Readme.asset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Readme.asset.meta
+    projectPath: Assets\Readme.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scenes.meta
+    projectPath: Assets\Scenes.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\Benst\builder\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\SampleScene.unity.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scenes\SampleScene.unity.meta
+    projectPath: Assets\Scenes\SampleScene.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts.meta
+    projectPath: Assets\Scripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\BuildObject.cs
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\BuildObject.cs
+    projectPath: Assets\Scripts\BuildObject.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\BuildObject.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\BuildObject.cs.meta
+    projectPath: Assets\Scripts\BuildObject.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\ButtonListener.cs
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\ButtonListener.cs
+    projectPath: Assets\Scripts\ButtonListener.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\ButtonListener.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\ButtonListener.cs.meta
+    projectPath: Assets\Scripts\ButtonListener.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\ButtonPrefab.cs
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\ButtonPrefab.cs
+    projectPath: Assets\Scripts\ButtonPrefab.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\ButtonPrefab.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\ButtonPrefab.cs.meta
+    projectPath: Assets\Scripts\ButtonPrefab.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Handlers.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Handlers.meta
+    projectPath: Assets\Scripts\Handlers.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Handlers\BuildHandler.cs
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Handlers\BuildHandler.cs
+    projectPath: Assets\Scripts\Handlers\BuildHandler.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Handlers\BuildHandler.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Handlers\BuildHandler.cs.meta
+    projectPath: Assets\Scripts\Handlers\BuildHandler.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Handlers\ButtonHandler.cs
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Handlers\ButtonHandler.cs
+    projectPath: Assets\Scripts\Handlers\ButtonHandler.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Handlers\ButtonHandler.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Handlers\ButtonHandler.cs.meta
+    projectPath: Assets\Scripts\Handlers\ButtonHandler.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Handlers\MouseHandler.cs
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Handlers\MouseHandler.cs
+    projectPath: Assets\Scripts\Handlers\MouseHandler.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Handlers\MouseHandler.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Handlers\MouseHandler.cs.meta
+    projectPath: Assets\Scripts\Handlers\MouseHandler.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Handlers\ObjectHandler.cs
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Handlers\ObjectHandler.cs
+    projectPath: Assets\Scripts\Handlers\ObjectHandler.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Handlers\ObjectHandler.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Handlers\ObjectHandler.cs.meta
+    projectPath: Assets\Scripts\Handlers\ObjectHandler.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Handlers\UIHandler.cs
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Handlers\UIHandler.cs
+    projectPath: Assets\Scripts\Handlers\UIHandler.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Handlers\UIHandler.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Handlers\UIHandler.cs.meta
+    projectPath: Assets\Scripts\Handlers\UIHandler.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Hider.cs
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Hider.cs
+    projectPath: Assets\Scripts\Hider.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\Hider.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\Hider.cs.meta
+    projectPath: Assets\Scripts\Hider.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\SimpleCameraController.cs
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\SimpleCameraController.cs
+    projectPath: Assets\Scripts\SimpleCameraController.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\SimpleCameraController.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\SimpleCameraController.cs.meta
+    projectPath: Assets\Scripts\SimpleCameraController.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\ValidDetection.cs
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\ValidDetection.cs
+    projectPath: Assets\Scripts\ValidDetection.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\ValidDetection.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\Scripts\ValidDetection.cs.meta
+    projectPath: Assets\Scripts\ValidDetection.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Settings.meta
+    fullPath: C:\Users\Benst\builder\Assets\Settings.meta
+    projectPath: Assets\Settings.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Settings\ForwardRenderer.asset
+    fullPath: C:\Users\Benst\builder\Assets\Settings\ForwardRenderer.asset
+    projectPath: Assets\Settings\ForwardRenderer.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Settings\ForwardRenderer.asset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Settings\ForwardRenderer.asset.meta
+    projectPath: Assets\Settings\ForwardRenderer.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Settings\SampleSceneProfile.asset
+    fullPath: C:\Users\Benst\builder\Assets\Settings\SampleSceneProfile.asset
+    projectPath: Assets\Settings\SampleSceneProfile.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Settings\SampleSceneProfile.asset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Settings\SampleSceneProfile.asset.meta
+    projectPath: Assets\Settings\SampleSceneProfile.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Settings\UniversalRP-HighQuality.asset
+    fullPath: C:\Users\Benst\builder\Assets\Settings\UniversalRP-HighQuality.asset
+    projectPath: Assets\Settings\UniversalRP-HighQuality.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Settings\UniversalRP-HighQuality.asset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Settings\UniversalRP-HighQuality.asset.meta
+    projectPath: Assets\Settings\UniversalRP-HighQuality.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Settings\UniversalRP-LowQuality.asset
+    fullPath: C:\Users\Benst\builder\Assets\Settings\UniversalRP-LowQuality.asset
+    projectPath: Assets\Settings\UniversalRP-LowQuality.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Settings\UniversalRP-LowQuality.asset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Settings\UniversalRP-LowQuality.asset.meta
+    projectPath: Assets\Settings\UniversalRP-LowQuality.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Settings\UniversalRP-MediumQuality.asset
+    fullPath: C:\Users\Benst\builder\Assets\Settings\UniversalRP-MediumQuality.asset
+    projectPath: Assets\Settings\UniversalRP-MediumQuality.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Settings\UniversalRP-MediumQuality.asset.meta
+    fullPath: C:\Users\Benst\builder\Assets\Settings\UniversalRP-MediumQuality.asset.meta
+    projectPath: Assets\Settings\UniversalRP-MediumQuality.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Shaders.meta
+    fullPath: C:\Users\Benst\builder\Assets\Shaders.meta
+    projectPath: Assets\Shaders.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Shaders\SnapShader.shader
+    fullPath: C:\Users\Benst\builder\Assets\Shaders\SnapShader.shader
+    projectPath: Assets\Shaders\SnapShader.shader
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Shaders\SnapShader.shader.meta
+    fullPath: C:\Users\Benst\builder\Assets\Shaders\SnapShader.shader.meta
+    projectPath: Assets\Shaders\SnapShader.shader.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo.meta
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo.meta
+    projectPath: Assets\TutorialInfo.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Icons.meta
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Icons.meta
+    projectPath: Assets\TutorialInfo\Icons.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Icons\Help_Icon.png
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Icons\Help_Icon.png
+    projectPath: Assets\TutorialInfo\Icons\Help_Icon.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Icons\Help_Icon.png.meta
+    projectPath: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Icons\UniversalIcon.png
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Icons\UniversalIcon.png
+    projectPath: Assets\TutorialInfo\Icons\UniversalIcon.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Icons\UniversalIcon.png.meta
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Icons\UniversalIcon.png.meta
+    projectPath: Assets\TutorialInfo\Icons\UniversalIcon.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Layout.wlt
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Layout.wlt
+    projectPath: Assets\TutorialInfo\Layout.wlt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Layout.wlt.meta
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Layout.wlt.meta
+    projectPath: Assets\TutorialInfo\Layout.wlt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Scripts.meta
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Scripts.meta
+    projectPath: Assets\TutorialInfo\Scripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Scripts\Editor.meta
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Scripts\Editor.meta
+    projectPath: Assets\TutorialInfo\Scripts\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+    projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+    projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Scripts\Readme.cs
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Scripts\Readme.cs
+    projectPath: Assets\TutorialInfo\Scripts\Readme.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+    fullPath: C:\Users\Benst\builder\Assets\TutorialInfo\Scripts\Readme.cs.meta
+    projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\manifest.json
+    fullPath: C:\Users\Benst\builder\Packages\manifest.json
+    projectPath: Packages\manifest.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\packages-lock.json
+    fullPath: C:\Users\Benst\builder\Packages\packages-lock.json
+    projectPath: Packages\packages-lock.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\AudioManager.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\AudioManager.asset
+    projectPath: ProjectSettings\AudioManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\ClusterInputManager.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\ClusterInputManager.asset
+    projectPath: ProjectSettings\ClusterInputManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\DynamicsManager.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\DynamicsManager.asset
+    projectPath: ProjectSettings\DynamicsManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\EditorSettings.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\EditorSettings.asset
+    projectPath: ProjectSettings\EditorSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\GraphicsSettings.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\GraphicsSettings.asset
+    projectPath: ProjectSettings\GraphicsSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\InputManager.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\InputManager.asset
+    projectPath: ProjectSettings\InputManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\NavMeshAreas.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\NavMeshAreas.asset
+    projectPath: ProjectSettings\NavMeshAreas.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\Physics2DSettings.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\Physics2DSettings.asset
+    projectPath: ProjectSettings\Physics2DSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\PresetManager.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\PresetManager.asset
+    projectPath: ProjectSettings\PresetManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\ProjectVersion.txt
+    fullPath: C:\Users\Benst\builder\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\QualitySettings.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\TagManager.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\TimeManager.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\TimeManager.asset
+    projectPath: ProjectSettings\TimeManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\UnityConnectSettings.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\UnityConnectSettings.asset
+    projectPath: ProjectSettings\UnityConnectSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\URPProjectSettings.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\URPProjectSettings.asset
+    projectPath: ProjectSettings\URPProjectSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\VFXManager.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\VFXManager.asset
+    projectPath: ProjectSettings\VFXManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\XRSettings.asset
+    fullPath: C:\Users\Benst\builder\ProjectSettings\XRSettings.asset
+    projectPath: ProjectSettings\XRSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
