@@ -188,7 +188,7 @@ public class BuildHandler : MonoBehaviour
     {
         if (deletepreview)
         {
-            if (deletepreview.transform.position != obj.transform.position)
+            if (deletepreview.GetComponent<BuildObject>().Anchor != obj.GetComponent<BuildObject>().Anchor)
             {
                 unsetDelete();
                 deletepreview = obj;
@@ -233,17 +233,10 @@ public class BuildHandler : MonoBehaviour
                 }
                 Quaternion rotation = Quaternion.FromToRotation(new Vector3(1, 0, 0), newpos - hit.transform.position);
                 setPreviewObject(Object, newpos, rotation, hit.transform);
-                if (!placePreview.GetComponent<BuildObject>().isValid)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    objHandler.deletePreview(placePreview, true);
-                }
-                else
-                {
-                    if (Input.GetMouseButtonDown(0))
-                    {
-                        objHandler.buildObject(Object, newpos, rotation, hit.transform, false);
-                        return false;
-                    }
+                    objHandler.buildObject(Object, newpos, rotation, hit.transform, false);
+                    return false;
                 }
                 return true;
             }

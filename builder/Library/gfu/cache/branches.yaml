@@ -9,19 +9,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: GitHub.Unity.45:GitHub.Unity:BranchesCache
   cacheType: 2
-  lastUpdatedAtString: 2021-01-13T09:59:10.402+00:00
-  initializedAtString: 2021-01-13T09:53:44.965+00:00
+  lastUpdatedAtString: 2021-01-13T13:29:52.100+00:00
+  initializedAtString: 2021-01-13T13:29:52.073+00:00
   localBranches:
-  - name: master
-    tracking: origin/master
-  - name: test
-    tracking: 
+  - name: main
+    tracking: origin/main
   remoteBranches:
-  - name: origin/master
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/main
     tracking: '[None]'
   remotes:
   - name: origin
@@ -33,28 +33,28 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - master
-    - test
+    - main
     values:
-    - name: master
+    - name: main
       remote:
         name: origin
         url: https://github.com/BenStaite/HouseBuilder.git
-      trackingBranch: master
-    - name: test
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
+      trackingBranch: main
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - master
+      - HEAD
+      - main
     subKeyValues:
     - Values:
-      - name: master
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/BenStaite/HouseBuilder.git
+        trackingBranch: 
+      - name: main
         remote:
           name: origin
           url: https://github.com/BenStaite/HouseBuilder.git

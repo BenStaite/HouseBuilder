@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-01-13T09:59:11.909+00:00
-  initializedAtString: 2021-01-13T09:51:20.179+00:00
+  lastUpdatedAtString: 2021-01-13T13:06:52.666+00:00
+  initializedAtString: 2021-01-13T13:06:52.666+00:00
   currentGitRemote:
     name: origin
     url: https://github.com/BenStaite/HouseBuilder.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: main
+    tracking: origin/main
   currentConfigBranch:
-    name: master
+    name: main
     remote:
       name: origin
       url: https://github.com/BenStaite/HouseBuilder.git
-    trackingBranch: master
+    trackingBranch: main
   currentConfigRemote:
     name: origin
     url: https://github.com/BenStaite/HouseBuilder.git

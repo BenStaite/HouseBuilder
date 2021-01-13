@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1697640569, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: GitHub.Unity.45:GitHub.Unity:GitUserCache
   cacheType: 8
-  lastUpdatedAtString: 2021-01-13T09:51:12.140+00:00
-  initializedAtString: 2021-01-13T09:51:12.117+00:00
-  gitName: BStaite
+  lastUpdatedAtString: 2021-01-13T13:29:32.164+00:00
+  initializedAtString: 2021-01-13T13:29:32.143+00:00
+  gitName: BenStaite
   gitEmail: 48914719+BStaite@users.noreply.github.com
