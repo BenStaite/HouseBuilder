@@ -13,6 +13,7 @@ public class ObjectHandler : MonoBehaviour
     {
         GameObject floor = Instantiate(FloorPrefab,pos,rot);
         floor.transform.parent = parent;
+        floor.GetComponent<BuildObject>().setAnchor(pos);
         placePreview(floor, preview);
         return floor;
     }
@@ -28,10 +29,9 @@ public class ObjectHandler : MonoBehaviour
 
     public GameObject buildObject(GameObject obj, Vector3 pos, Quaternion rot, Transform parent, bool preview)
     {
-        GameObject newObj;
         Vector3 newpos = pos;
         newpos.y = newpos.y + obj.GetComponent<BuildObject>().Offset.y;
-        newObj = Instantiate(obj, newpos, rot);
+        GameObject newObj = Instantiate(obj, newpos, rot);
         newObj.GetComponent<BuildObject>().setAnchor(pos);
         newObj.transform.parent = parent;
         placePreview(newObj, preview);

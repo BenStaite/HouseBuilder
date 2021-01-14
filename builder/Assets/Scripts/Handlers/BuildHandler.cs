@@ -45,7 +45,7 @@ public class BuildHandler : MonoBehaviour
             }
             if (buildType == "floor")
             {
-                if (!detectObjectBuild())
+                if (!detectFloorBuild())
                 {
                     Destroy(placePreview);
                     unsetDelete();
@@ -145,6 +145,7 @@ public class BuildHandler : MonoBehaviour
         }
     }
 
+
     void setDelete(GameObject obj)
     {
         if (deletepreview)
@@ -202,6 +203,43 @@ public class BuildHandler : MonoBehaviour
                 return true;
             }
             else if (hit.transform.tag == Object.tag && hit.transform.gameObject != placePreview)
+            {
+                Destroy(placePreview);
+                setDelete(hit.transform.gameObject);
+                if (Input.GetMouseButtonDown(1))
+                {
+                    Destroy(deletepreview);
+                    return false;
+                }
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        return false;
+    }
+
+    bool detectFloorBuild()
+    {
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hit, 100f,layer))
+        {
+            HitTag = hit.transform.tag;
+            if (hit.transform.tag == "SnapPoint")
+            {
+                unsetDelete();
+                setPreviewObject(Object, hit.transform.position, new Quaternion(), hit.transform.root);
+                if (Input.GetMouseButtonDown(0))
+                {
+                    objHandler.buildFloor(hit.transform.position, new Quaternion(), hit.transform.root, false);
+                    return false;
+                }
+                return true;
+            }
+            else if (hit.transform.tag == "Floor")
             {
                 Destroy(placePreview);
                 setDelete(hit.transform.gameObject);
