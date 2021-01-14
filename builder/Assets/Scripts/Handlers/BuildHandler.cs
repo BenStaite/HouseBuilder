@@ -19,6 +19,9 @@ public class BuildHandler : MonoBehaviour
     public string buildType;
     public bool buildmode;
 
+    public bool creatingWall;
+    public GameObject WallBuildToolStart;
+    public GameObject WallBuildToolEnd;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,9 +54,10 @@ public class BuildHandler : MonoBehaviour
                 unsetDelete();
                 FloorBuildTools(false);
             }
-            else if(buildType == "Wall")
+            else if(buildType == "wall")
             {
                 WallBuild();
+                unsetPreview();
                 FloorBuildTools(false);
             }
             else
@@ -113,6 +117,43 @@ public class BuildHandler : MonoBehaviour
         else if (smallest == dist4)
         {
             edge = trans.position - zOffset;
+        }
+        else
+        {
+            edge = trans.position;
+        }
+        return (edge);
+    }
+
+    Vector3 findClosestCorner(Vector3 origin, Transform trans)
+    {
+        Vector3 xOffset = new Vector3(.5f, 0, 0);
+        Vector3 zOffset = new Vector3(0, 0, .5f);
+        float dist1 = Vector3.Distance(origin, trans.position + xOffset + zOffset);
+        float dist2 = Vector3.Distance(origin, trans.position + xOffset - zOffset);
+        float dist3 = Vector3.Distance(origin, trans.position - xOffset + zOffset);
+        float dist4 = Vector3.Distance(origin, trans.position - xOffset - zOffset);
+        Debug.DrawLine(origin, trans.position + xOffset + zOffset, Color.blue);
+        Debug.DrawLine(origin, trans.position + xOffset - zOffset, Color.blue);
+        Debug.DrawLine(origin, trans.position - xOffset + zOffset, Color.blue);
+        Debug.DrawLine(origin, trans.position - xOffset - zOffset, Color.blue);
+        float smallest = Mathf.Min(dist1, dist2, dist3, dist4);
+        Vector3 edge;
+        if (smallest == dist1)
+        {
+            edge = trans.position + xOffset + zOffset;
+        }
+        else if (smallest == dist2)
+        {
+            edge = trans.position + xOffset - zOffset;
+        }
+        else if (smallest == dist3)
+        {
+            edge = trans.position - xOffset + zOffset;
+        }
+        else if (smallest == dist4)
+        {
+            edge = trans.position - xOffset - zOffset;
         }
         else
         {
@@ -235,19 +276,33 @@ public class BuildHandler : MonoBehaviour
     void WallBuild()
     {
         RaycastHit hit = detectWorldPoint();
-        if (hit.transform.tag == "Floor")
+        if (Input.GetMouseButtonDown(0))
         {
-            Vector3 pos = findClosestEdge(hit.point, hit.transform);
-            setPreviewObject(Object, pos, hit.transform, true);
+            creatingWall = true;
+            WallBuildToolStart.transform.position = findClosestCorner(hit.point, hit.transform);
         }
-        else if(hit.transform.tag == "Wall" && hit.transform.gameObject != placePreview)
+        else if (Input.GetMouseButtonUp(0))
         {
-            setDelete(hit.transform.gameObject);
+            creatingWall = false ;
+            WallBuildToolEnd.transform.position = findClosestCorner(hit.point, hit.transform);
         }
         else
         {
-            unsetPreview();
-            unsetDelete();
+            if (creatingWall)
+            {
+
+            }
+            else
+            {
+                if (hit.transform.tag == "Wall" && hit.transform.gameObject != placePreview)
+                {
+                    setDelete(hit.transform.gameObject);
+                }
+                else
+                {
+                    unsetDelete();
+                }
+            }
         }
     }
 

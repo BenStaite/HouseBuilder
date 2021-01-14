@@ -1,2 +1,4 @@
 C:\Users\Benst\builder\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Benst\builder\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Benst\Documents\GitHub\HouseBuilder\builder\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Benst\Documents\GitHub\HouseBuilder\builder\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
