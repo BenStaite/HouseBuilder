@@ -51,6 +51,11 @@ public class BuildHandler : MonoBehaviour
                 unsetDelete();
                 FloorBuildTools(false);
             }
+            else if(buildType == "Wall")
+            {
+                WallBuild();
+                FloorBuildTools(false);
+            }
             else
             {
                 ObjectBuild();
@@ -134,7 +139,6 @@ public class BuildHandler : MonoBehaviour
         {
             if (placePreview.GetComponent<BuildObject>().Anchor != pos)
             {
-                Debug.Log(pos.ToString()+ " " +  placePreview.GetComponent<BuildObject>().Anchor.ToString());
                 Destroy(placePreview);
                 placePreview = objHandler.buildObject(obj, pos, rot, parent, true);
             }
@@ -197,14 +201,13 @@ public class BuildHandler : MonoBehaviour
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         Physics.Raycast(ray, out hit, 100f, layer);
+        HitTag = hit.transform.tag;
         return hit;
     }
 
     void ObjectBuild()
     {
         RaycastHit hit = detectWorldPoint();
-        Debug.DrawLine(new Vector3(), hit.point);
-        HitTag = hit.transform.tag;
         if (hit.transform.tag == buildObject.requiredParent.tag)
         {
             Vector3 pos;
@@ -229,10 +232,28 @@ public class BuildHandler : MonoBehaviour
         }
     }
 
+    void WallBuild()
+    {
+        RaycastHit hit = detectWorldPoint();
+        if (hit.transform.tag == "Floor")
+        {
+            Vector3 pos = findClosestEdge(hit.point, hit.transform);
+            setPreviewObject(Object, pos, hit.transform, true);
+        }
+        else if(hit.transform.tag == "Wall" && hit.transform.gameObject != placePreview)
+        {
+            setDelete(hit.transform.gameObject);
+        }
+        else
+        {
+            unsetPreview();
+            unsetDelete();
+        }
+    }
+
     void FloorBuild()
     {
         RaycastHit hit = detectWorldPoint();
-        HitTag = hit.transform.tag;
         if (hit.transform.tag == "SnapPoint")
         {
             setPreviewObject(Object, hit.transform.position, hit.transform.root, false);

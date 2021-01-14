@@ -9,30 +9,12 @@ public class ObjectHandler : MonoBehaviour
     public Material DeleteMaterial, PreviewMaterial, transparentMaterial;
     public List<GameObject> objects;
 
-    public GameObject buildFloor(Vector3 pos, Quaternion rot, Transform parent, bool preview)
-    {
-        GameObject floor = Instantiate(FloorPrefab,pos,rot);
-        floor.transform.parent = parent;
-        floor.GetComponent<BuildObject>().setAnchor(pos);
-        placePreview(floor, preview);
-        return floor;
-    }
-
-    public GameObject buildWall(Vector3 pos, Quaternion rot, Transform parent, bool preview)
-    {
-        pos = pos + WallPrefab.GetComponent<BuildObject>().Offset;
-        GameObject wall = Instantiate(WallPrefab, pos, rot);
-        wall.transform.parent = parent;
-        placePreview(wall, preview);
-        return wall;
-    }
-
     public GameObject buildObject(GameObject obj, Vector3 pos, Quaternion rot, Transform parent, bool preview)
     {
         Vector3 newpos = pos;
-        newpos.y = newpos.y + obj.GetComponent<BuildObject>().Offset.y;
         GameObject newObj = Instantiate(obj, newpos, rot);
         newObj.GetComponent<BuildObject>().setAnchor(pos);
+        newObj.transform.localPosition += (obj.GetComponent<BuildObject>().Offset.x * newObj.transform.forward) + (obj.GetComponent<BuildObject>().Offset.y * newObj.transform.up) + (obj.GetComponent<BuildObject>().Offset.z * newObj.transform.right);
         newObj.transform.parent = parent;
         placePreview(newObj, preview);
         return newObj;
