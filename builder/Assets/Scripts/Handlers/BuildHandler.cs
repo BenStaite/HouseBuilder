@@ -45,7 +45,7 @@ public class BuildHandler : MonoBehaviour
             }
             if (buildType == "floor")
             {
-                if (!detectFloorBuild())
+                if (!detectObjectBuild())
                 {
                     Destroy(placePreview);
                     unsetDelete();
@@ -60,7 +60,7 @@ public class BuildHandler : MonoBehaviour
             }
             else
             {
-                if (!detectObjectBuild2())
+                if (!detectObjectBuild())
                 {
                     Destroy(placePreview);
                     unsetDelete();
@@ -128,29 +128,6 @@ public class BuildHandler : MonoBehaviour
         return (edge);
     }
 
-    void findClosestPoint(Vector3 origin, Transform trans)
-    {
-        Vector3 middle = trans.position;
-        Vector3 middleTop = middle + new Vector3(.5f,0,0);
-        Vector3 middleBottom = middle + new Vector3(.5f, 0, 0);
-    }
-
-    void setPreviewWall(Vector3 pos, Quaternion rot, Transform parent)
-    {
-        if (placePreview)
-        {
-            if (placePreview.transform.position != pos)
-            {
-                Destroy(placePreview);
-                placePreview = objHandler.buildWall(pos, rot, parent, true);
-            }
-        }
-        else
-        {
-            placePreview = objHandler.buildWall(pos, rot, parent, true);
-        }
-    }
-
     void setPreviewObject(GameObject obj, Vector3 pos, Quaternion rot, Transform parent)
     {
         if (placePreview)
@@ -165,22 +142,6 @@ public class BuildHandler : MonoBehaviour
         else
         {
             placePreview = objHandler.buildObject(obj, pos, rot, parent, true);
-        }
-    }
-
-    void setPreviewFloor(Vector3 pos, Quaternion rot, Transform parent)
-    {
-        if (placePreview)
-        {
-            if (placePreview.transform.position != pos)
-            {
-                Destroy(placePreview);
-                placePreview = objHandler.buildFloor(pos, rot, parent, true);
-            }
-        }
-        else
-        {
-            placePreview = objHandler.buildFloor(pos, rot, parent, true);
         }
     }
 
@@ -211,7 +172,7 @@ public class BuildHandler : MonoBehaviour
         }
     }
 
-    bool detectObjectBuild2()
+    bool detectObjectBuild()
     {
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -241,84 +202,6 @@ public class BuildHandler : MonoBehaviour
                 return true;
             }
             else if (hit.transform.tag == Object.tag && hit.transform.gameObject != placePreview)
-            {
-                Destroy(placePreview);
-                setDelete(hit.transform.gameObject);
-                if (Input.GetMouseButtonDown(1))
-                {
-                    Destroy(deletepreview);
-                    return false;
-                }
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-        return false;
-    }
-
-    bool detectObjectBuild()
-    {
-        RaycastHit hit;
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hit, 100f, layer))
-        {
-            Debug.DrawLine(new Vector3(), hit.point);
-            HitTag = hit.transform.tag;
-            if (hit.transform.tag == "Floor")
-            {
-                unsetDelete();
-                Vector3 newpos = findClosestEdge(hit.point, hit.transform);
-                Quaternion rotation = Quaternion.FromToRotation(new Vector3(0,0,0), newpos - hit.transform.position);
-                setPreviewObject(Object, newpos, rotation, hit.transform);
-                if (Input.GetMouseButtonDown(0))
-                {
-                    objHandler.buildObject(Object, newpos, rotation, hit.transform, false);
-                    return false;
-                }
-                return true;
-            }
-            else if (hit.transform.tag == Object.tag)
-            {
-                Destroy(placePreview);
-                setDelete(hit.transform.gameObject);
-                if (Input.GetMouseButtonDown(1))
-                {
-                    Destroy(deletepreview);
-                    return false;
-                }
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-        return false;
-    }
-
-
-    bool detectFloorBuild()
-    {
-        RaycastHit hit;
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hit, 100f,layer))
-        {
-            HitTag = hit.transform.tag;
-            if (hit.transform.tag == "SnapPoint")
-            {
-                unsetDelete();
-                setPreviewFloor(hit.transform.position, new Quaternion(), hit.transform.root);
-                if (Input.GetMouseButtonDown(0))
-                {
-                    objHandler.buildFloor(hit.transform.position, new Quaternion(), hit.transform.root, false);
-                    return false;
-                }
-                return true;
-            }
-            else if (hit.transform.tag == "Floor")
             {
                 Destroy(placePreview);
                 setDelete(hit.transform.gameObject);
