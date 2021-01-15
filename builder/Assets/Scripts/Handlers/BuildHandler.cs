@@ -290,11 +290,15 @@ public class BuildHandler : MonoBehaviour
         {
             if (creatingWall)
             {
-
+                WallBuildToolEnd.transform.position = findClosestCorner(hit.point, hit.transform);
             }
             else
             {
-                if (hit.transform.tag == "Wall" && hit.transform.gameObject != placePreview)
+                if (hit.transform.tag == "Floor")
+                {
+                    WallBuildToolStart.transform.position = findClosestCorner(hit.point, hit.transform);
+                }
+                else if (hit.transform.tag == "Wall" && hit.transform.gameObject != placePreview)
                 {
                     setDelete(hit.transform.gameObject);
                 }
