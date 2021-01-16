@@ -4,126 +4,100 @@ using UnityEngine;
 
 public class DynamicWalls : MonoBehaviour
 {
-    List<Chain> allChains;
+    public GameObject wallMiddle, wallCorner;
+    public List<WallCorner> corners;
+    public List<WallMiddle> middles;
+    WallCorner nullCorner;
+
+
     public float wallThickness;
     public float wallHeight;
     // Start is called before the first frame update
     void Start()
     {
-        allChains = new List<Chain>();
+        corners = new List<WallCorner>();
+        middles = new List<WallMiddle>();
     }
 
-    public void addChain(List<Vector3> positions)
+    public void addWall(Vector3 pos1, Vector3 pos2, Transform parent)
     {
-        List<WallNode> nodes = new List<WallNode>();
-        foreach(Vector3 pos in positions)
+        WallCorner corner1 = cornerExists(pos1);
+        WallCorner corner2 = cornerExists(pos2);
+        if (corner1 == nullCorner)
         {
-            nodes.Add(new WallNode(pos));
+            corner1 = new WallCorner(pos1, wallCorner, parent);
         }
-        Chain newChain = new Chain(nodes[0]);
-        newChain.nodes = nodes;
-        newChain.updateVerts();
+        if (corner2 == nullCorner)
+        {
+            corner2 = new WallCorner(pos2, wallCorner, parent);
+        }
+        corners.Add(corner1);
+        corners.Add(corner2);
+        if (!areAdjacent(corner1, corner2)) return;
+        WallMiddle middle = new WallMiddle(corner1, corner2, wallMiddle, parent);
+        corner1.addConnector(middle);
+        corner2.addConnector(middle);
     }
 
-    public void addWall(Vector3 position)
+    WallCorner cornerExists(Vector3 pos)
     {
-        WallNode wall = new WallNode(position);
-        if(allChains.Count == 0)
+        foreach(WallCorner c in corners)
         {
-            allChains.Add(new Chain(wall));
-        }
-        else
-        {
-            if (!findNeighbour(wall))
+            if(c.position == pos)
             {
-                allChains.Add(new Chain(wall));
+                return c;
             }
         }
+        return nullCorner; 
     }
 
-    bool findNeighbour(WallNode wall)
+    bool areAdjacent(WallCorner corner1, WallCorner corner2)
     {
-        foreach(Chain chain in allChains)
-        {
-            foreach(WallNode w in chain.nodes)
-            {
-                if (areAdjacent(wall, w)){
-                    w.addNeighbour(wall);
-                    wall.addNeighbour(w);
-                    chain.addNode(wall);
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
-
-    bool areAdjacent(WallNode wall1, WallNode wall2)
-    {
-        if(Mathf.Abs(wall1.position.x - wall2.position.x) == 1)
-        {
-            return true;
-        }
-        else if (Mathf.Abs(wall1.position.z - wall2.position.z) == 1f)
+        if (Mathf.Abs(corner1.position.x - corner2.position.x) == 1 ^ Mathf.Abs(corner1.position.z - corner2.position.z) == 1)
         {
             return true;
         }
         return false;
     }
 
-    class Chain
-    {
-        public List<WallNode> nodes;
-        public WallNode head;
-        public GameObject wallObject;
+    public class WallMiddle{
+        public WallCorner corner1, corner2;
+        public GameObject gameObject, prefab;
 
-        public Chain(WallNode head)
+        public WallMiddle(WallCorner corner1, WallCorner corner2, GameObject prefab, Transform parent)
         {
-            this.head = head;
-            nodes = new List<WallNode>();
-            wallObject = new GameObject();
-        }
-
-        public void addNode(WallNode wall)
-        {
-            nodes.Add(wall);
-            updateVerts();
-        }
-
-        public void updateVerts()
-        {
-            Destroy(wallObject);
-            wallObject = new GameObject("Wall");
-            MeshFilter meshFilter = (MeshFilter)wallObject.AddComponent(typeof(MeshFilter));
-            Mesh mesh = new Mesh();
-            List<Vector3> verts = new List<Vector3>();
-            foreach (WallNode node in nodes)
-            {
-                
-            }
+            this.corner1 = corner1;
+            this.corner2 = corner2;
+            this.prefab = prefab;
+            gameObject = Instantiate(prefab, Vector3.Lerp(corner1.position, corner2.position, 0.5f), Quaternion.identity);
+            gameObject.transform.LookAt(corner1.position);
+            gameObject.transform.parent = parent;
         }
     }
 
-
-    class WallNode
+    public class WallCorner
     {
         public Vector3 position;
-        public List<WallNode> neighbours;
+        public List<WallMiddle> connectors;
+        public GameObject gameObject, prefab;
 
-        public WallNode(Vector3 position)
+        public WallCorner(Vector3 position, GameObject prefab, Transform parent)
         {
             this.position = position;
-            neighbours = new List<WallNode>();
+            this.prefab = prefab;
+            connectors = new List<WallMiddle>();
+            gameObject = Instantiate(prefab, position, Quaternion.identity);
+            gameObject.transform.parent = parent;
         }
 
-        public void addNeighbour(WallNode neighbour)
+        public void addConnector(WallMiddle connector)
         {
-            neighbours.Add(neighbour);
+            connectors.Add(connector);
         }
 
-        public void removeNeighbour(WallNode neighbour)
+        public void removeConnector(WallMiddle connector)
         {
-            neighbours.Remove(neighbour);
+            connectors.Remove(connector);
         }
     }
 }

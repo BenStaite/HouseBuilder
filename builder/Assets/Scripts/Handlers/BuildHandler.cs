@@ -22,6 +22,8 @@ public class BuildHandler : MonoBehaviour
     public bool creatingWall;
     public GameObject WallBuildToolStart;
     public GameObject WallBuildToolEnd;
+
+    public DynamicWalls dynamicWalls;
     // Start is called before the first frame update
     void Start()
     {
@@ -276,37 +278,48 @@ public class BuildHandler : MonoBehaviour
     void WallBuild()
     {
         RaycastHit hit = detectWorldPoint();
-        if (Input.GetMouseButtonDown(0))
+
+        if (hit.transform.tag == "Floor")
         {
-            creatingWall = true;
-            WallBuildToolStart.transform.position = findClosestCorner(hit.point, hit.transform);
-        }
-        else if (Input.GetMouseButtonUp(0))
-        {
-            creatingWall = false ;
-            WallBuildToolEnd.transform.position = findClosestCorner(hit.point, hit.transform);
-        }
-        else
-        {
-            if (creatingWall)
+            unsetDelete();
+            if (Input.GetMouseButtonDown(0))
+            {
+                WallBuildToolStart.transform.position = findClosestCorner(hit.point, hit.transform);
+                creatingWall = true;
+            }
+            else if (Input.GetMouseButtonUp(0) && creatingWall)
             {
                 WallBuildToolEnd.transform.position = findClosestCorner(hit.point, hit.transform);
+                dynamicWalls.addWall(WallBuildToolStart.transform.position, WallBuildToolEnd.transform.position, hit.transform);
+                WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
+                creatingWall = false;
             }
             else
             {
-                if (hit.transform.tag == "Floor")
+                if (creatingWall)
                 {
-                    WallBuildToolStart.transform.position = findClosestCorner(hit.point, hit.transform);
-                }
-                else if (hit.transform.tag == "Wall" && hit.transform.gameObject != placePreview)
-                {
-                    setDelete(hit.transform.gameObject);
+                    WallBuildToolEnd.transform.position = findClosestCorner(hit.point, hit.transform);
                 }
                 else
                 {
-                    unsetDelete();
+                    WallBuildToolStart.transform.position = findClosestCorner(hit.point, hit.transform);
                 }
             }
+        }
+        else if(hit.transform.tag == "Wall")
+        {
+            setDelete(hit.transform.gameObject);
+            WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
+            WallBuildToolStart.transform.position = new Vector3(1000, 0, 0);
+            if (Input.GetMouseButtonDown(1))
+            {
+                Destroy(deletepreview);
+            }
+        }
+        else
+        {
+            unsetDelete();
+
         }
     }
 
