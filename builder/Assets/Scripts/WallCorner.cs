@@ -6,7 +6,8 @@ public class WallCorner : MonoBehaviour
 {
     public List<WallMiddle> connectors;
     // Start is called before the first frame update
-    void Start()
+
+    public void Initialise()
     {
         connectors = new List<WallMiddle>();
     }

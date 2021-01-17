@@ -224,10 +224,7 @@ public class BuildHandler : MonoBehaviour
             objHandler.deletePreview(deletepreview, true);
         }
 
-        if (Input.GetMouseButtonDown(1))
-        {
-            Destroy(deletepreview);
-        }
+        
     }
 
     void unsetDelete()
@@ -267,6 +264,10 @@ public class BuildHandler : MonoBehaviour
         else if (hit.transform.tag == Object.tag && hit.transform.gameObject != placePreview)
         {
             setDelete(hit.transform.gameObject);
+            if (Input.GetMouseButtonDown(1))
+            {
+                Destroy(deletepreview);
+            }
         }
         else
         {

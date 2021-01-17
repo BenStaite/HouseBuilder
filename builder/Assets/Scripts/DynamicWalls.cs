@@ -30,12 +30,14 @@ public class DynamicWalls : MonoBehaviour
         {
             corner1 = Instantiate(wallCorner, pos1, Quaternion.identity).GetComponent<WallCorner>();
             corner1.gameObject.transform.parent = parent;
+            corner1.Initialise();
             corners.Add(corner1);
         }
         if (corner2 == nullCorner)
         {
             corner2 = Instantiate(wallCorner, pos2, Quaternion.identity).GetComponent<WallCorner>();
             corner2.gameObject.transform.parent = parent;
+            corner2.Initialise();
             corners.Add(corner2);
         }
 
@@ -59,15 +61,12 @@ public class DynamicWalls : MonoBehaviour
                 if(mid.corner1.connectors.Count == 0)
                 {
                     removeCorner(mid.corner1);
-                    Destroy(mid.corner1.gameObject);
                 }
                 if(mid.corner2.connectors.Count == 0)
                 {
                     removeCorner(mid.corner2);
-                    Destroy(mid.corner2.gameObject);
                 }
                 temp = mid;
-                middles.Remove(mid);
             }
         }
         if(temp != nullObject)
