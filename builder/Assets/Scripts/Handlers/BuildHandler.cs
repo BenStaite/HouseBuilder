@@ -299,6 +299,18 @@ public class BuildHandler : MonoBehaviour
                 if (creatingWall)
                 {
                     WallBuildToolEnd.transform.position = findClosestCorner(hit.point, hit.transform);
+                    if(WallBuildToolEnd.transform.position != WallBuildToolStart.transform.position)
+                    {
+                        if(dynamicWalls.addWall(WallBuildToolStart.transform.position, WallBuildToolEnd.transform.position, hit.transform))
+                        {
+                            WallBuildToolStart.transform.position = WallBuildToolEnd.transform.position;
+                            WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
+                        }
+                        else
+                        {
+                            creatingWall = false;
+                        }
+                    }
                 }
                 else
                 {
@@ -306,20 +318,19 @@ public class BuildHandler : MonoBehaviour
                 }
             }
         }
-        else if(hit.transform.tag == "Wall")
+        else if(hit.transform.tag == "Wall" && hit.transform.GetComponent<WallMiddle>())
         {
             setDelete(hit.transform.gameObject);
             WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
             WallBuildToolStart.transform.position = new Vector3(1000, 0, 0);
             if (Input.GetMouseButtonDown(1))
             {
-                Destroy(deletepreview);
+                dynamicWalls.removeWall(deletepreview);
             }
         }
         else
         {
             unsetDelete();
-
         }
     }
 

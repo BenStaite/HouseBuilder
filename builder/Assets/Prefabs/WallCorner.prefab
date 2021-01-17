@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1315327935476291522}
   - component: {fileID: 5429327070117467692}
   - component: {fileID: 6183860810780851932}
+  - component: {fileID: 3361183368214756422}
   m_Layer: 0
   m_Name: WallCorner
   m_TagString: Wall
@@ -117,3 +118,18 @@ MonoBehaviour:
   placePoints: 0
   isValid: 0
   Anchor: {x: 0, y: 0, z: 0}
+--- !u!114 &3361183368214756422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5090689821724205711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe3297abdd23f443963a56ec634936f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
+  connectors: []
+  prefab: {fileID: 0}

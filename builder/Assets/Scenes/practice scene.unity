@@ -488,6 +488,7 @@ GameObject:
   - component: {fileID: 924180938}
   - component: {fileID: 924180941}
   - component: {fileID: 924180940}
+  - component: {fileID: 924180942}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -559,6 +560,7 @@ MonoBehaviour:
   creatingWall: 0
   WallBuildToolStart: {fileID: 42852894}
   WallBuildToolEnd: {fileID: 1794540868}
+  dynamicWalls: {fileID: 924180942}
 --- !u!114 &924180941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,6 +577,26 @@ MonoBehaviour:
   buttons: []
   handler: {fileID: 1348361548}
   buildHandler: {fileID: 924180940}
+--- !u!114 &924180942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924180937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04b5326b57e8ef74f84846a3b36e20a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallMiddle: {fileID: 2665049055493416041, guid: 2bbf643a98a3927468e1847e1579984e,
+    type: 3}
+  wallCorner: {fileID: 5090689821724205711, guid: 8ac811017fc769949b89e229553b1383,
+    type: 3}
+  corners: []
+  middles: []
+  wallThickness: 0
+  wallHeight: 0
 --- !u!1 &946972976
 GameObject:
   m_ObjectHideFlags: 0
