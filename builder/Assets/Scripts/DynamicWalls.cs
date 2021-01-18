@@ -11,7 +11,6 @@ public class DynamicWalls : MonoBehaviour
     GameObject nullObject;
     WallMiddle nullMiddle;
 
-    public float wallThickness;
     public float wallHeight;
     // Start is called before the first frame update
     void Start()
@@ -30,6 +29,8 @@ public class DynamicWalls : MonoBehaviour
         {
             corner1 = Instantiate(wallCorner, pos1, Quaternion.identity).GetComponent<WallCorner>();
             corner1.gameObject.transform.parent = parent;
+            corner1.GetComponent<BuildObject>().Anchor = pos1;
+            corner1.gameObject.transform.localPosition = new Vector3(0,wallHeight,0) + corner1.gameObject.transform.localPosition;
             corner1.Initialise();
             corners.Add(corner1);
         }
@@ -37,14 +38,18 @@ public class DynamicWalls : MonoBehaviour
         {
             corner2 = Instantiate(wallCorner, pos2, Quaternion.identity).GetComponent<WallCorner>();
             corner2.gameObject.transform.parent = parent;
+            corner2.GetComponent<BuildObject>().Anchor = pos2;
+            corner2.gameObject.transform.localPosition = new Vector3(0, wallHeight, 0) + corner2.gameObject.transform.localPosition;
             corner2.Initialise();
             corners.Add(corner2);
         }
 
         WallMiddle middle = Instantiate(wallMiddle, Vector3.Lerp(pos1,pos2,0.5f), Quaternion.identity).GetComponent<WallMiddle>();
         middle.gameObject.transform.parent = parent;
-        middle.setCorners(corner1, corner2);
+        middle.GetComponent<BuildObject>().Anchor = Vector3.Lerp(pos1, pos2, 0.5f);
         middle.gameObject.transform.LookAt(pos1);
+        middle.gameObject.transform.localPosition = new Vector3(0, wallHeight, 0) + middle.gameObject.transform.localPosition;
+        middle.setCorners(corner1, corner2);
         middles.Add(middle);
         return true;
     }
@@ -86,7 +91,7 @@ public class DynamicWalls : MonoBehaviour
     {
         foreach(WallCorner c in corners)
         {
-            if(c.transform.position == pos)
+            if(c.gameObject.GetComponent<BuildObject>().Anchor == pos)
             {
                 return c;
             }

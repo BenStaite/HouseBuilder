@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3361183368214756422}
   m_Layer: 0
   m_Name: WallCorner
-  m_TagString: Wall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 989f531cb122fac46b4794ebb44a136f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -130,6 +130,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe3297abdd23f443963a56ec634936f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position: {x: 0, y: 0, z: 0}
   connectors: []
-  prefab: {fileID: 0}

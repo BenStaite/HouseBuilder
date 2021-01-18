@@ -276,50 +276,26 @@ public class BuildHandler : MonoBehaviour
         }
     }
 
+    Transform findNearestFloor(Vector3 origin)
+    {
+        GameObject nearest = WallBuildToolEnd;
+        float closestDist = 90000;
+        foreach(GameObject floor in GameObject.FindGameObjectsWithTag("Floor"))
+        {
+            float dist = Vector3.Distance(origin, floor.transform.position);
+            if (dist < closestDist)
+            {
+                nearest = floor;
+                closestDist = dist;
+            }
+        }
+        return nearest.transform;
+    }
+
     void WallBuild()
     {
         RaycastHit hit = detectWorldPoint();
-
-        if (hit.transform.tag == "Floor")
-        {
-            unsetDelete();
-            if (Input.GetMouseButtonDown(0))
-            {
-                WallBuildToolStart.transform.position = findClosestCorner(hit.point, hit.transform);
-                creatingWall = true;
-            }
-            else if (Input.GetMouseButtonUp(0) && creatingWall)
-            {
-                WallBuildToolEnd.transform.position = findClosestCorner(hit.point, hit.transform);
-                dynamicWalls.addWall(WallBuildToolStart.transform.position, WallBuildToolEnd.transform.position, hit.transform);
-                WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
-                creatingWall = false;
-            }
-            else
-            {
-                if (creatingWall)
-                {
-                    WallBuildToolEnd.transform.position = findClosestCorner(hit.point, hit.transform);
-                    if(WallBuildToolEnd.transform.position != WallBuildToolStart.transform.position)
-                    {
-                        if(dynamicWalls.addWall(WallBuildToolStart.transform.position, WallBuildToolEnd.transform.position, hit.transform))
-                        {
-                            WallBuildToolStart.transform.position = WallBuildToolEnd.transform.position;
-                            WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
-                        }
-                        else
-                        {
-                            creatingWall = false;
-                        }
-                    }
-                }
-                else
-                {
-                    WallBuildToolStart.transform.position = findClosestCorner(hit.point, hit.transform);
-                }
-            }
-        }
-        else if(hit.transform.tag == "Wall" && hit.transform.GetComponent<WallMiddle>())
+        if(hit.transform.tag == "Wall" && hit.transform.GetComponent<WallMiddle>())
         {
             setDelete(hit.transform.gameObject);
             WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
@@ -332,6 +308,42 @@ public class BuildHandler : MonoBehaviour
         else
         {
             unsetDelete();
+            Transform closestFloor = findNearestFloor(hit.point);
+            if (Input.GetMouseButtonDown(0))
+            {
+                WallBuildToolStart.transform.position = findClosestCorner(hit.point, closestFloor);
+                creatingWall = true;
+            }
+            else if (Input.GetMouseButtonUp(0) && creatingWall)
+            {
+                WallBuildToolEnd.transform.position = findClosestCorner(hit.point, closestFloor);
+                dynamicWalls.addWall(WallBuildToolStart.transform.position, WallBuildToolEnd.transform.position, closestFloor);
+                WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
+                creatingWall = false;
+            }
+            else
+            {
+                if (creatingWall)
+                {
+                    WallBuildToolEnd.transform.position = findClosestCorner(hit.point, closestFloor);
+                    if (WallBuildToolEnd.transform.position != WallBuildToolStart.transform.position)
+                    {
+                        if (dynamicWalls.addWall(WallBuildToolStart.transform.position, WallBuildToolEnd.transform.position, closestFloor))
+                        {
+                            WallBuildToolStart.transform.position = WallBuildToolEnd.transform.position;
+                            WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
+                        }
+                        else
+                        {
+                            creatingWall = false;
+                        }
+                    }
+                }
+                else
+                {
+                    WallBuildToolStart.transform.position = findClosestCorner(hit.point, closestFloor);
+                }
+            }
         }
     }
 
@@ -345,6 +357,10 @@ public class BuildHandler : MonoBehaviour
         else if (hit.transform.tag == "Floor")
         {
             setDelete(hit.transform.gameObject);
+            if (Input.GetMouseButtonDown(1))
+            {
+                Destroy(deletepreview);
+            }
         }
         else
         {
