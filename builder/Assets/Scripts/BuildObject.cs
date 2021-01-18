@@ -5,6 +5,7 @@ using UnityEngine;
 public class BuildObject : MonoBehaviour
 {
     public GameObject thisObject;
+    public LayerMask layer;
     public float price;
     public Material previousMaterial;
     public Vector3 Offset;
@@ -20,6 +21,7 @@ public class BuildObject : MonoBehaviour
         isValid = true;
         thisObject = transform.gameObject;
         previousMaterial = GetComponent<Renderer>().material;
+        layer = gameObject.layer;
     }
 
     public void changeMaterial(Material mat, bool rememberMat)

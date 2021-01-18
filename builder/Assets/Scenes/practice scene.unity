@@ -559,7 +559,6 @@ MonoBehaviour:
   buildmode: 0
   creatingWall: 0
   WallBuildToolStart: {fileID: 42852894}
-  WallBuildToolEnd: {fileID: 1794540868}
   dynamicWalls: {fileID: 924180942}
 --- !u!114 &924180941
 MonoBehaviour:
@@ -595,7 +594,7 @@ MonoBehaviour:
     type: 3}
   corners: []
   middles: []
-  wallHeight: 0.5
+  wallHeight: 1
 --- !u!1 &946972976
 GameObject:
   m_ObjectHideFlags: 0

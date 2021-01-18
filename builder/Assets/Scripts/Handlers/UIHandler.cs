@@ -42,7 +42,7 @@ public class UIHandler : MonoBehaviour
     {
         if (buildmode && buildHandler.buildType != "wall")
         {
-            makeWallsTransparent2();
+            makeWallsTransparent3();
             resetTransparents = false;
         }
         else
@@ -125,6 +125,29 @@ public class UIHandler : MonoBehaviour
                 else
                 {
                     reachLimit = true;
+                }
+            }
+        }
+    }
+
+
+    void makeWallsTransparent3()
+    {
+        foreach (GameObject wall in GameObject.FindGameObjectsWithTag("Wall"))
+        {
+            RaycastHit hit;
+            Ray ray = new Ray(Camera.main.transform.position, wall.transform.position - Camera.main.transform.position);
+            if (Physics.Raycast(ray, out hit, 20f, LayerMask.GetMask("Default")))
+            {
+                if (hit.transform.tag == "Floor")
+                {
+                    Debug.DrawLine(Camera.main.transform.position, hit.point, Color.red);
+                    objectHandler.makeTransparent(wall, true);
+                }
+                else
+                {
+                    Debug.DrawLine(Camera.main.transform.position, hit.point, Color.blue);
+                    objectHandler.makeTransparent(wall, false);
                 }
             }
         }

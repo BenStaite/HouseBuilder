@@ -21,7 +21,6 @@ public class BuildHandler : MonoBehaviour
 
     public bool creatingWall;
     public GameObject WallBuildToolStart;
-    public GameObject WallBuildToolEnd;
 
     public DynamicWalls dynamicWalls;
     // Start is called before the first frame update
@@ -236,37 +235,49 @@ public class BuildHandler : MonoBehaviour
         }
     }
 
-    RaycastHit detectWorldPoint()
+    bool detectWorldPoint(out RaycastHit hit)
     {
-        RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        Physics.Raycast(ray, out hit, 100f, layer);
-        HitTag = hit.transform.tag;
-        return hit;
+        if(Physics.Raycast(ray, out hit, 100f, layer))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     void ObjectBuild()
     {
-        RaycastHit hit = detectWorldPoint();
-        if (hit.transform.tag == buildObject.requiredParent.tag)
+        RaycastHit hit;
+        if (detectWorldPoint(out hit))
         {
-            Vector3 pos;
-            if (buildObject.placePoints == 1)
+            if (hit.transform.tag == buildObject.requiredParent.tag)
             {
-                pos = hit.transform.position;
+                Vector3 pos;
+                if (buildObject.placePoints == 1)
+                {
+                    pos = hit.transform.position;
+                }
+                else
+                {
+                    pos = findClosestEdge(hit.point, hit.transform);
+                }
+                setPreviewObject(Object, pos, hit.transform, true);
+            }
+            else if (hit.transform.tag == Object.tag && hit.transform.gameObject != placePreview)
+            {
+                setDelete(hit.transform.gameObject);
+                if (Input.GetMouseButtonDown(1))
+                {
+                    Destroy(deletepreview);
+                }
             }
             else
             {
-                pos = findClosestEdge(hit.point, hit.transform);
-            }
-            setPreviewObject(Object, pos, hit.transform, true);
-        }
-        else if (hit.transform.tag == Object.tag && hit.transform.gameObject != placePreview)
-        {
-            setDelete(hit.transform.gameObject);
-            if (Input.GetMouseButtonDown(1))
-            {
-                Destroy(deletepreview);
+                unsetPreview();
+                unsetDelete();
             }
         }
         else
@@ -278,7 +289,7 @@ public class BuildHandler : MonoBehaviour
 
     Transform findNearestFloor(Vector3 origin)
     {
-        GameObject nearest = WallBuildToolEnd;
+        GameObject nearest = WallBuildToolStart;
         float closestDist = 90000;
         foreach(GameObject floor in GameObject.FindGameObjectsWithTag("Floor"))
         {
@@ -294,72 +305,84 @@ public class BuildHandler : MonoBehaviour
 
     void WallBuild()
     {
-        RaycastHit hit = detectWorldPoint();
-        if(hit.transform.tag == "Wall" && hit.transform.GetComponent<WallMiddle>())
+        RaycastHit hit;
+        if (detectWorldPoint(out hit))
         {
-            setDelete(hit.transform.gameObject);
-            WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
-            WallBuildToolStart.transform.position = new Vector3(1000, 0, 0);
-            if (Input.GetMouseButtonDown(1))
+            if (hit.transform.tag == "Wall" && hit.transform.GetComponent<WallMiddle>())
             {
-                dynamicWalls.removeWall(deletepreview);
+                setDelete(hit.transform.gameObject);
+                WallBuildToolStart.transform.position = new Vector3(1000, 0, 0);
+                if (Input.GetMouseButtonDown(1))
+                {
+                    dynamicWalls.removeWall(deletepreview);
+                }
+            }
+            else
+            {
+                Transform closestFloor = findNearestFloor(hit.point);
+                Vector3 closestCorner = findClosestCorner(hit.point, closestFloor);
+                unsetDelete();
+                if (Input.GetMouseButtonDown(0))
+                {
+                    WallBuildToolStart.transform.position = closestCorner;
+                    creatingWall = true;
+                }
+                else if (Input.GetMouseButtonUp(0) && creatingWall)
+                {
+                    dynamicWalls.addWall(WallBuildToolStart.transform.position, closestCorner, closestFloor);
+                    WallBuildToolStart.transform.position = new Vector3(1000, 0, 0);
+                    creatingWall = false;
+                }
+                else
+                {
+                    if (creatingWall)
+                    {
+                        if (closestCorner != WallBuildToolStart.transform.position)
+                        {
+                            if (dynamicWalls.addWall(WallBuildToolStart.transform.position, closestCorner, closestFloor))
+                            {
+                                WallBuildToolStart.transform.position = closestCorner;
+                            }
+                            else
+                            {
+                                creatingWall = false;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        WallBuildToolStart.transform.position = closestCorner;
+                    }
+                }
             }
         }
         else
         {
             unsetDelete();
-            Transform closestFloor = findNearestFloor(hit.point);
-            if (Input.GetMouseButtonDown(0))
-            {
-                WallBuildToolStart.transform.position = findClosestCorner(hit.point, closestFloor);
-                creatingWall = true;
-            }
-            else if (Input.GetMouseButtonUp(0) && creatingWall)
-            {
-                WallBuildToolEnd.transform.position = findClosestCorner(hit.point, closestFloor);
-                dynamicWalls.addWall(WallBuildToolStart.transform.position, WallBuildToolEnd.transform.position, closestFloor);
-                WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
-                creatingWall = false;
-            }
-            else
-            {
-                if (creatingWall)
-                {
-                    WallBuildToolEnd.transform.position = findClosestCorner(hit.point, closestFloor);
-                    if (WallBuildToolEnd.transform.position != WallBuildToolStart.transform.position)
-                    {
-                        if (dynamicWalls.addWall(WallBuildToolStart.transform.position, WallBuildToolEnd.transform.position, closestFloor))
-                        {
-                            WallBuildToolStart.transform.position = WallBuildToolEnd.transform.position;
-                            WallBuildToolEnd.transform.position = new Vector3(1000, 0, 0);
-                        }
-                        else
-                        {
-                            creatingWall = false;
-                        }
-                    }
-                }
-                else
-                {
-                    WallBuildToolStart.transform.position = findClosestCorner(hit.point, closestFloor);
-                }
-            }
         }
     }
 
     void FloorBuild()
     {
-        RaycastHit hit = detectWorldPoint();
-        if (hit.transform.tag == "SnapPoint")
+        RaycastHit hit;
+        if (detectWorldPoint(out hit))
         {
-            setPreviewObject(Object, hit.transform.position, hit.transform.root, false);
-        }
-        else if (hit.transform.tag == "Floor")
-        {
-            setDelete(hit.transform.gameObject);
-            if (Input.GetMouseButtonDown(1))
+            if (hit.transform.tag == "SnapPoint")
             {
-                Destroy(deletepreview);
+                setPreviewObject(Object, hit.transform.position, hit.transform.root, false);
+            }
+            else if (hit.transform.tag == "Floor")
+            {
+                setDelete(hit.transform.gameObject);
+                if (Input.GetMouseButtonDown(1))
+                {
+                    Destroy(deletepreview);
+                }
+            }
+            else
+            {
+                unsetDelete();
+                unsetPreview();
             }
         }
         else

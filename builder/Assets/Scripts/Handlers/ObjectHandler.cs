@@ -56,7 +56,7 @@ public class ObjectHandler : MonoBehaviour
         else
         {
             obj.GetComponent<BuildObject>().removeTempMaterial(transparentMaterial);
-            obj.layer = LayerMask.NameToLayer("Default");
+            obj.layer = obj.GetComponent<BuildObject>().layer;
         }
     }
 
